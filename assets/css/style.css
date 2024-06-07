@@ -167,7 +167,8 @@ body { background: var(--smoky-black); }
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: #31312d;
+  /* background: var(--eerie-black-2); */
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -535,7 +536,8 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  background: var(--bg-gradient-yellow-2);
+  /* background: var(--bg-gradient-jet); */
   border-radius: inherit;
   z-index: -1;
 }
@@ -827,6 +829,7 @@ main {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  font-size: 14px;
 }
 
 
@@ -1877,6 +1880,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 * RESUME
 	 */
 
-  .timeline-text { max-width: 700px; }
+  .timeline-text { max-width: 750px; }
 
 }
